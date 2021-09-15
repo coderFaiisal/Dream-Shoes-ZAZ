@@ -281,14 +281,26 @@ p:hover {
 .facebook-icon {
   color: blue;
   margin: 10px;
+  transition: transform 0.5s ease;
+}
+.facebook-icon:hover {
+  transform: scale(1.5);
 }
 .instagram-icon {
   color: rgb(219, 0, 29);
   margin: 10px;
+  transition: transform 0.5s ease;
+}
+.instagram-icon:hover {
+  transform: scale(1.5);
 }
 .youtube-icon {
   color: red;
   margin: 10px;
+  transition: transform 0.5s ease;
+}
+.youtube-icon:hover {
+  transform: scale(1.5);
 }
 #copyright {
   text-align: center;
