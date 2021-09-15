@@ -10,6 +10,11 @@ p {
 p:hover {
   transform: scale(1.1);
 }
+header {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
 /* Header Top Banner Area */
 .header-banner {
   position: relative;
@@ -79,8 +84,8 @@ p:hover {
 }
 
 .nav-link:hover {
-  transform: scale(1.5);
-  transition: transform 0.8s ease;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 /* Carousel Area */
 .carousel-section {
