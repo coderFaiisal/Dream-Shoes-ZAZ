@@ -7,7 +7,7 @@ p {
   color: gray;
   transition: transform 0.5s ease;
 }
-p:hover{
+p:hover {
   transform: scale(1.1);
 }
 /* Header Top Banner Area */
