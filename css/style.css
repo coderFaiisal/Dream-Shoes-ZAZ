@@ -484,6 +484,7 @@ header {
   .product-category > li:first-child {
     border: none;
   }
+  
   .products-card {
     flex: 47%;
     margin: 5px;
